@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA5AA73525D1BE0A00985EB4 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5AA73425D1BE0A00985EB4 /* VideoModel.swift */; };
+		EA5AA73825D1BE7000985EB4 /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5AA73725D1BE7000985EB4 /* VideoListItemView.swift */; };
 		EAAB2AB325C7072D006C94B3 /* AnimalDtailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAB2AB225C7072D006C94B3 /* AnimalDtailView.swift */; };
 		EAAB2AB625C70B16006C94B3 /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAB2AB525C70B16006C94B3 /* HeadingView.swift */; };
 		EAAB2ABA25C70D1D006C94B3 /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAB2AB925C70D1D006C94B3 /* InsetGalleryView.swift */; };
@@ -43,6 +45,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA5AA73425D1BE0A00985EB4 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		EA5AA73725D1BE7000985EB4 /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
 		EAAB2AB225C7072D006C94B3 /* AnimalDtailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDtailView.swift; sourceTree = "<group>"; };
 		EAAB2AB525C70B16006C94B3 /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
 		EAAB2AB925C70D1D006C94B3 /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
@@ -183,6 +187,7 @@
 				EAAB2ABD25C7278D006C94B3 /* InsetFactView.swift */,
 				EAAB2AC025C72A48006C94B3 /* InsetMapView.swift */,
 				EAAB2AC325C73662006C94B3 /* ExternalWebLinkView.swift */,
+				EA5AA73725D1BE7000985EB4 /* VideoListItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -192,6 +197,7 @@
 			children = (
 				EAE0BFFA25BDE6C000B55C73 /* CoverImageModel.swift */,
 				EAE0C00525BDEF2100B55C73 /* AnimalModel.swift */,
+				EA5AA73425D1BE0A00985EB4 /* VideoModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -300,8 +306,10 @@
 				EAE0BFE825BDE2FA00B55C73 /* VideoListView.swift in Sources */,
 				EAAB2AC425C73662006C94B3 /* ExternalWebLinkView.swift in Sources */,
 				EAE0BFEE25BDE33400B55C73 /* GalleryView.swift in Sources */,
+				EA5AA73525D1BE0A00985EB4 /* VideoModel.swift in Sources */,
 				EAE0BFFF25BDE89E00B55C73 /* CodableBundleExtension.swift in Sources */,
 				EAAB2ABA25C70D1D006C94B3 /* InsetGalleryView.swift in Sources */,
+				EA5AA73825D1BE7000985EB4 /* VideoListItemView.swift in Sources */,
 				EAAB2AB325C7072D006C94B3 /* AnimalDtailView.swift in Sources */,
 				EAAB2AB625C70B16006C94B3 /* HeadingView.swift in Sources */,
 			);
